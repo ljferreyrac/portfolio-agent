@@ -160,8 +160,8 @@ export default function App() {
       {/* Header */}
       <header className="flex-shrink-0 flex items-center justify-between px-6 py-3 border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center">
-            <span className="text-white font-bold text-sm">P</span>
+          <div className="w-8 h-8 rounded-lg overflow-hidden">
+            <img src="/icon.png" alt="PathPilot" className="w-full h-full object-cover" />
           </div>
           <div>
             <p className="font-semibold text-slate-100 text-sm leading-none">PathPilot Demo</p>
